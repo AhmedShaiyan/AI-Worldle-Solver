@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "turtle_oxford"
+version = "0.1.1"
+description = "Python module for the Turtle System (https://www.turtle.ox.ac.uk/)"
+authors = ["Turtle Oxford <turtlehertford@gmail.com>"]
+readme = "README.md"
+license = "GPL-3.0-or-later"
+packages = [
+    { include = "*" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tk = "^0.1.0"
+pillow = "^10.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

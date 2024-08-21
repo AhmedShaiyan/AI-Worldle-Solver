@@ -11,7 +11,7 @@ FREQUENCY_ORDER = 'etaoinshrdlcumwfgypbvkjxqz'
 
 #Load the list of 5-letter words from a text file
 def load_words():
-    with open("turtle-python/sgb-words.txt", "r") as file:
+    with open("Code/sgb-words.txt", "r") as file:
         return [word.strip().upper() for word in file if len(word.strip()) == 5]
 
 # Prompts the user to enter the target word for the program to guess.
